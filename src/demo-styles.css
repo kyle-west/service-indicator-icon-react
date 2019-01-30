@@ -1,0 +1,19 @@
+.black {
+  background-color: black;
+  color: white;
+}
+.white {
+  background-color: white;
+}
+.grey {
+  background-color: grey;
+}
+
+.parts-3 {
+  height: 33vh;
+  display: flex;
+}
+
+.real-status {
+  width: 100%;
+}
