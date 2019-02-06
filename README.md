@@ -1,4 +1,4 @@
-# service-indicators-react
+# service-indicator-icon-react
 
 ```jsx
 render () {

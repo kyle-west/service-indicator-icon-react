@@ -1,12 +1,15 @@
 {
-  "name": "service-indicators-react",
-  "version": "1.0.0",
+  "name": "service-indicator-icon-react",
+  "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build": "neutrino build",
     "start": "neutrino start"
   },
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@neutrinojs/react-components": "^8.3.0",
     "neutrino": "^8.3.0",
