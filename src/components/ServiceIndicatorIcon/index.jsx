@@ -60,6 +60,7 @@ export default class ServiceIndicatorIcon extends Component {
   render() {
     let {icon} = this.state;
     let {status} = this.state;
+    // icon = "https://raw.githubusercontent.com/kyle-west/service-indicator-icon-react/master/build/" + icon;
     return (
       <div className={styles.component} title={status.description}>
         <img src={icon} alt={status.indicator} className={styles[status.indicator]}/>

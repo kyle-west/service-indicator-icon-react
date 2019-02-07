@@ -1,6 +1,6 @@
 {
   "name": "service-indicator-icon-react",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -8,13 +8,18 @@
     "start": "neutrino start"
   },
   "files": [
-    "build"
+    "build/*",
+    "index.js"
   ],
   "devDependencies": {
     "@neutrinojs/react-components": "^8.3.0",
+    "file-loader": "^3.0.1",
     "neutrino": "^8.3.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
+  },
+  "dependencies": {
+    "@neutrinojs/image-loader": "^8.3.0"
   }
 }

@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { render } from 'react-dom';
-import ServiceIndicatorIcon from './components/ServiceIndicatorIcon/ServiceIndicatorIcon';
+import ServiceIndicatorIcon from './components/ServiceIndicatorIcon';
 import './demo-styles.css'
 
 const root = document.getElementById('root');
